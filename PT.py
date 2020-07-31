@@ -1,1 +1,14 @@
-# coding: shift_jisimport randomtest = 0member = ["ŒF","ˆÉD","‚İ‚é‚­","‚í‚½‚ë","‚«‚é‚ ","‚Ü‚Ÿ","‚Ü‚¢","‚½‚Ê","‚è‚¨","‚è‚å‚¤","‚¹‚ß","‚Ë‚³‚»","yamyu","‚Ò‚ã‚ê","bb","‚ç‚×‚è‚é","‚Ò‚Â","ƒ‚ƒ‹"]count = 0random.shuffle(member)for x in member:	count = count+1	result = count % 2	print(x + ":" + str(result))
+# coding: shift_jis
+
+import random
+
+
+test = 0
+abcdserfa - 123
+member = ["ç†Š","ä¼Šç¹”","ã¿ã‚‹ã","ã‚ãŸã‚","ãã‚‹ã‚","ã¾ã","ã¾ã„","ãŸã¬","ã‚ŠãŠ","ã‚Šã‚‡ã†","ã›ã‚","ã­ã•ã","yamyu","ã´ã‚…ã‚Œ","bb","ã‚‰ã¹ã‚Šã‚‹","ã´ã¤","ãƒ¢ãƒ«"]
+count = 0
+random.shuffle(member)
+for x in member:
+	count = count+1
+	result = count % 2
+	print(x + ":" + str(result))
